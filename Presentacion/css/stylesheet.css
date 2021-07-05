@@ -1,0 +1,262 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+html {
+    color: #C6CCB2;
+    background-color: #0A1128;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+}
+
+p, li, input, a {
+    font-family: 'Cabin', sans-serif; 
+}
+
+a {
+    color: #F4743B;
+}
+
+img {
+    border-radius: 10px;
+    border: solid #5A5AD8 5px;
+}
+
+header {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color: #0A1128;
+    border-bottom: solid 3px #F4743B;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+}
+
+header h1 {
+    margin-left: 25px; 
+}
+
+#nav_list {
+    list-style: none;
+    display: inline-block;
+}
+
+#nav_list li {
+    padding-right: 15px;
+    display: inline-block;
+}
+
+#nav_list a {
+    text-decoration: none;
+    font-weight: bold;
+    transition: .85s;
+}
+
+#nav_list a:hover {
+    font-size: 18px;
+}
+
+main {
+    margin-top: 53px;
+    width: 100%;
+}
+
+
+#hola {
+    height: 600px;
+    text-align: center;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+}
+
+#hola img, h2, p {
+    margin-bottom: 15px;
+}
+
+.intro {
+    background-color: hsla(226, 60%, 10%, 0.85);
+    width: 85%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.sec_title {
+    border-radius: 5px;
+    width: 75%;
+    padding: 15px;
+    margin: 0 auto 45px auto;
+    display: flexbox;
+    text-align: center;
+    align-items: center;
+    }
+
+.sec_title h2 {
+    margin: 0;
+}
+
+#tecnologias {
+    padding: 45px 0;
+    Color: #0A1128;
+    background-color: #C6CCB2;
+    text-align: center;
+    margin: auto;
+}
+
+#title_tec {
+    background-color: hsla(18, 89%, 59%, 0.85);
+    color: hsla (18, 89%, 59%, 0.85)
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin: auto;
+}
+
+.list, figure {
+    text-align: left;
+    margin: auto;
+}
+
+figure img{
+    height: 250px;
+    border: none;
+}
+
+#proyectos{
+    background-color: #5A5AD8;
+    color: white;
+    padding: 45px 0;
+    text-align: center;
+    margin: auto;
+}
+
+#title_pro {
+    background-color: hsla(74, 20%, 75%, 0.85);
+}
+
+#contacto {
+    background-color: #F4743B;
+    color: #0A1128;
+    padding: 45px 0;
+    text-align: center;
+    margin: auto;
+}
+
+#title_contact {
+    background-color: hsla(226, 60%, 10%, 0.85);
+    color: #C6CCB2;
+}
+
+
+.formulario {
+    width: 450px;
+    text-align: center;
+    margin: auto;
+}
+
+form {
+    display: block;
+    margin: auto;
+    text-align: left;
+}
+
+.formulario input {
+    padding: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.formulario input:focus {
+    border: #0A1128 solid 3px;
+}
+
+#comentario {
+    height: 100px;
+    resize: vertical;
+}
+
+.formulario label {
+    padding-bottom: 10px;
+}
+
+#button {
+    width: 25%;
+    float: right;
+    border-radius: 3px;
+    background-color: #0A1128;
+    color: #C6CCB2;
+    font-weight: bold;
+    font-size: 1.2em;
+    outline: none;
+    transition: 0.65s;   
+    cursor: pointer; 
+}
+
+#button:focus {
+    border: none;
+}
+
+#button:hover {
+    background-color: #C6CCB2;
+    color: #0A1128;
+}
+
+.redes_iconos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 75px auto 0 auto;
+    width: 450px;
+    height: 65px;
+}
+
+.icono img {
+    height: 50px;
+    transition: 0.35s;
+    cursor: pointer;
+}
+
+#face:hover {
+    height: 60px;
+    box-shadow: -10px 5px 5px #0A1128;
+}
+
+#face:active {
+    height: 50px;
+    box-shadow: none;
+}
+
+#insta:hover {
+    height: 60px;
+    box-shadow: 0px 8px 5px #0A1128;
+}
+
+#insta:active {
+    height: 50px;
+    box-shadow: none;
+}
+
+#link:hover {
+    height: 60px;
+    box-shadow: 10px 5px 5px #0A1128;
+}
+
+#link:active {
+    height: 50px;
+    box-shadow: none;
+}
+
+
+
